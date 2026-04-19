@@ -6,6 +6,12 @@ http://56.228.59.250
 
 ---
 
+### 🔹 Website Output
+
+![Website](home.png)
+
+---
+
 ## 📸 Screenshots
 
 ### 🔹 EC2 Instance (Running)
@@ -26,13 +32,9 @@ http://56.228.59.250
 
 ---
 
-### 🔹 Website Output
-
-![Website](home.png)
-
----
-
 ## 👤 IAM Users Configuration
+
+![IAM](iam.png)
 
 ### User 1:
 
@@ -47,30 +49,3 @@ http://56.228.59.250
 * Result: Can view and manage EC2 instances
 
 ---
-
-## ⚠️ Challenges Faced
-
-* Confusion between Public IP and Elastic IP
-* Website initially worked on Public IP instead of Elastic IP
-* IAM login issues due to incorrect credentials
-* Fixed by associating Elastic IP and resetting password
-
----
-
-## 🛠️ Technologies Used
-
-* AWS EC2 (Ubuntu)
-* Apache Web Server
-* IAM
-* HTML/CSS/JS
-
----
-
-## 🚀 Steps Performed
-
-1. Launched EC2 instance (Ubuntu)
-2. Installed Apache Web Server
-3. Deployed static website
-4. Allocated and associated Elastic IP
-5. Created IAM users with different permissions
-6. Verified access control
